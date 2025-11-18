@@ -28,7 +28,14 @@ install:
   - gin
 config:
   actions:
+    # Enable the Gin admin theme.
     system.theme:
-      setAdminTheme: gin
-      # Note: you can also set the default theme for the site with the line below.
-      # setUseAdminTheme: true
+      simpleConfigUpdate:
+        admin: gin
+    # Configure Gin theme settings.
+    gin.settings:
+      simpleConfigUpdate:
+        preset_accent_color: light_blue
+        preset_focus_color: gin
+        enable_darkmode: '1'
+        classic_toolbar: horizontal
