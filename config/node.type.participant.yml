@@ -1,0 +1,20 @@
+uuid: b7f061f9-ff60-46eb-b614-180352a706c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: wGZ9TocinjJT5WEgBKaj_YXr0j6R20x3AF9MAEOdxKQ
+name: Participant
+type: participant
+description: 'Add a new Drupal Dev Days Participant'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

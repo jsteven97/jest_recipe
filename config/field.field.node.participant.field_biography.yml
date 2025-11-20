@@ -1,0 +1,24 @@
+uuid: 9b639235-e2dd-4079-949b-51ed8bf21e6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_biography
+    - node.type.participant
+  module:
+    - text
+_core:
+  default_config_hash: S2zJ5FpSfFtgpeIkOWzEkh8KNcBY_txwXZ1v4MZtG_g
+id: node.participant.field_biography
+field_name: field_biography
+entity_type: node
+bundle: participant
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

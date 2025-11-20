@@ -1,0 +1,25 @@
+uuid: 79ff7a77-d0c0-4cf5-bcfa-6a76e5b24510
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age
+    - node.type.participant
+_core:
+  default_config_hash: QzvAI5XA46JYSbAApyYNvejOSEKPN-rUWDcGEY8DwqQ
+id: node.participant.field_age
+field_name: field_age
+entity_type: node
+bundle: participant
+label: Age
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

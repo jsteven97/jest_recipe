@@ -1,10 +1,10 @@
 # The name of the recipe.
-name: 'Jest Recipe'
+name: "Jest Recipe"
 # The description of the recipe.
-description: 'Recipe para instalar Canvas y Webform.'
+description: "Recipe para instalar Canvas y Webform."
 # The type key is similar to the package key in module.info.yml. It can be used
 # to group Drupal recipes.
-type: 'Content type'
+type: "Content type"
 install:
   # An array of modules or themes to install if they are not already. The system
   # will detect if it is a theme or a module. During the install only simple
@@ -32,10 +32,5 @@ config:
     system.theme:
       simpleConfigUpdate:
         admin: gin
-    # Configure Gin theme settings.
-    gin.settings:
-      simpleConfigUpdate:
-        preset_accent_color: light_blue
-        preset_focus_color: gin
-        enable_darkmode: '1'
-        classic_toolbar: horizontal
+        default: gin
+

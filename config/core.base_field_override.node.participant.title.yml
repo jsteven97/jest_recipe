@@ -1,0 +1,20 @@
+uuid: b4a1ba31-5eb2-4a22-abd8-f8c6c1a3b773
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.participant
+_core:
+  default_config_hash: E0XUEw9-8Czx849oy3N6pH-9OQjlPgxqTacPU224o6U
+id: node.participant.title
+field_name: title
+entity_type: node
+bundle: participant
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

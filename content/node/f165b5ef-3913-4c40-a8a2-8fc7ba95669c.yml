@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f165b5ef-3913-4c40-a8a2-8fc7ba95669c
+  bundle: participant
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Jest Claude - Drupal Developer'
+  created:
+    -
+      value: 1763598418
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Hiking, photography, contributing to open-source projects, and playing guitar.</p>'
+      format: full_html
+      summary: ''
+  field_age:
+    -
+      value: 25
+  field_biography:
+    -
+      value: '<p>Jest Claude is an experienced Drupal developer who has been working with Drupal for over 5 years. He specializes in custom module development and site architecture.</p>'
+      format: basic_html

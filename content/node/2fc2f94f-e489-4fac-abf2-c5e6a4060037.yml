@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2fc2f94f-e489-4fac-abf2-c5e6a4060037
+  bundle: participant
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Jean Ak7 - Senior Drupal Developer'
+  created:
+    -
+      value: 1763651039
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<ul><li>Play video games </li><li>Have fun with his friends.</li><li>Enjoy good food</li><li>Contribute to community</li><li>Prepare good talks</li></ul>'
+      format: full_html
+      summary: ''
+  field_age:
+    -
+      value: 18
+  field_biography:
+    -
+      value: '<p>Jean Ak7 is an experienced Drupal developer who has been working with Drupal for over 6 years. He specializes in custom module development and site architecture.</p>'
+      format: basic_html

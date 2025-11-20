@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3b2c97bb-b268-4ab2-b3bf-4bdeb05de354
+  bundle: participant
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Steve Wonder - UX Designer'
+  created:
+    -
+      value: 1763651311
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<ul><li>Drink coffee</li><li>Watch movies</li><li>Cook</li><li>Drink magic zumitos</li><li>Share with family&nbsp;</li></ul>'
+      format: full_html
+      summary: ''
+  field_age:
+    -
+      value: 56
+  field_biography:
+    -
+      value: '<p>Steve brings a unique perspective to Drupal projects with his strong background in user experience design and accessibility.</p>'
+      format: basic_html

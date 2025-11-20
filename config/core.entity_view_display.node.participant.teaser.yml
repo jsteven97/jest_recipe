@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.participant.body
+    - field.field.node.participant.field_age
+    - field.field.node.participant.field_biography
+    - node.type.participant
+  module:
+    - text
+    - user
+id: node.participant.teaser
+targetEntityType: node
+bundle: participant
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_age: true
+  field_biography: true
