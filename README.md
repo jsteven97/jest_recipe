@@ -7,6 +7,7 @@
 - `ddev start`
 - `ddev composer create-project "drupal/recommended-project:11.2"`
 - `ddev composer require drush/drush`
+- `ddev drush site:install --account-name=admin --account-pass=admin -y`
 - Composer with minimum stability set to `dev`
 - `ddev composer config minimum-stability dev`
 
